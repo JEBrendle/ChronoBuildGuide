@@ -24,7 +24,9 @@ Linux Build
 6. Go to the Chrono Build directory and run a "make".
 
 7. In order to use the Python Module, you have to set PYTHONPATH. In CMake there is a log at the bottom of the window. Scroll up in that log until you see red text that begins with "To have access to the Chrono::Python wrapper modules..." Since we ran a make, we need to know the directory labeled "For modules in the BUILD tree:" It should be similar to "/home/Chrono/Chrono_Build/bin/".
+
 	We will now set PYTHONPATH to that directory.
+	
 	In a terminal, run the command "export PYTHONPATH=/home/Chrono/Chrono_Build/bin/", substituting in the directory that you saw in CMake.
 	
 8. The Chrono Python Module is now ready to use.
