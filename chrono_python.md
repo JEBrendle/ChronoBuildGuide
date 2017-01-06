@@ -2,15 +2,13 @@ Building the Chrono Python Module:
 1/6/17
 Linux Build
 
-Note: CMake 3.6.3, GCC 6.2.1, Python 2.7.12, and Swig 3.0.10 are needed to compile this module.
+**Note:** CMake 3.6.3, GCC 6.2.1, Python 2.7.12, and Swig 3.0.10 are needed to compile this module.
 
-Steps:
+**NOTE:** For the following steps, you need to check the "Advanced" box directly below the build directory in order to see the options that are going to be changed.
+
 1. In CMake, make sure that the source code directory for Chrono and the build directory are still selected in their proper positions.
 	Click on the "ENABLE_MODULE_PYTHON" check box.
 	Click "Configure".
-	
-**NOTE**
-For the following steps, you need to check the "Advanced" box directly below the build directory in order to see the options that are going to be changed.
 	
 2. CMake should automatically find your swig executable, but if it does not, you should now set the path to the executable in the "SWIG_EXECUTABLE" option and the path to the directory in the "SWIG_DIR" option.
 
